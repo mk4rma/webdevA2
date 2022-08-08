@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="js/js.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">LIVESTREAMING</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#intro" class="navbar_links" id="intro-page">Intro</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#types" class="navbar_links" id="type-page">Types of Streamers</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#start" class="navbar_links" id="start-page">Getting Started</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading">Live<span>Streaming</span></h1>
+            <p class="hero_description">Sharing Videos in Realtime</p>
+            <div class="main_btn"><a href="#intro">Introduction</a></div>
+        </div>
+    </div>
+    
+    <div class="main" id="intro">
+        <div class="main_container">
+          <div class="main_img-container">
+            <div class="main_img-card"><i class="fas fa-layer-group"></i>
+            <img src="img/livestreamsetup.jpg" alt="livestream setup"></div>
+          </div>
+          <div class="main_content">
+            <h1>Introduction</h1>
+            <h2>What is livestreaming?</h2>
+            <!--<p>Click the button to find out more!</p>-->
+            <div class="main_btn"><a href="introduction.html">Learn more</a></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="types" id="types">
+        <h1>Types of streamers</h1>
+        <div class="types_wrapper">
+          <div class="types_card">
+            <h2>Single Game<br><img src="img/senTenz.png" alt="SEN Tenz"></h2>
+            <div class="types_btn"><div class="main_btn "><a href="typesofstreamers.html#single">Read</a></div></div>
+          </div>
+          <div class="types_card">
+            <h2>Variety<br><img src="img/ludwig.jpg" alt="Ludwig"></h2>
+            <div class="types_btn"><div class="main_btn"><a href="typesofstreamers.html#variety">Read</a></div></div>
+          </div>
+          <div class="types_card">
+            <h2>IRL<br><img src="img/toast.jpg" alt="Disguised Toast"></h2>
+            <div class="types_btn"><div class="main_btn"><a href="typesofstreamers.html#irl">Read</a></div></div>
+          </div>
+          <div class="types_card">
+            <h2>VTubers<br><img src="img/shoto.jpg" alt="Shxtou"></h2>
+            <div class="types_btn"><div class="main_btn"><a href="typesofstreamers.html#vtuber">Read</a></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Getting Started with OBS -->
+      <div class="main" id="start">
+        <div class="main_container">
+          <div class="main_img-container">
+            <div class="main_img-card"><i class="fas fa-layer-group"></i>
+                <img src="img/obs.png" alt="obs logo">
+            </div>
+          </div>
+          <div class="main_content">
+            <h1>Getting Started</h1>
+            <h2>OBS Studio</h2>
+            <p>Learn how to start streaming!</p>
+            <div class="main_btn"><a href="tutorial.html">Tutorial</a></div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
